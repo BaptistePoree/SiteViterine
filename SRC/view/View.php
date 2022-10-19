@@ -26,7 +26,7 @@ class View {
     {
         $this->title = "Erreur";
         ob_start();
-        include_once('templates/errorPage.php');
+        include_once('templates/gestionErreur/errorPage.php');
         $this->content .= ob_get_clean();
         $this->styleSheetList[] = 'general';
     }
@@ -35,7 +35,7 @@ class View {
     {
         $this->title = "Accès refusé";
         ob_start();
-        include_once('templates/accessDenied.php');
+        include_once('templates/gestionErreur/accessDenied.php');
         $this->content .= ob_get_clean();
         $this->styleSheetList[] = 'general';
     }
@@ -140,7 +140,7 @@ class View {
             "contacter" =>
                 ["Action"=>($page ==="contacter"),              "UrlChemin"=>"?action=contacter",           "Text"=>"Me Contacter"]
         ];
-        include_once('templates/nav.php');
+        include_once('templates/general/nav.php');
         $this->styleSheetList[] = 'nav';
         // $this->styleSheetList[] = 'autre';
     }    
@@ -150,9 +150,9 @@ class View {
     /* Rendu General */
 	public function render() 
     {
-        include_once("templates/top.php");
+        include_once("templates/general/top.php");
         echo $this->content;
-        include_once("templates/bottom.php");
+        include_once("templates/general/bottom.php");
     }
 }
 ?>

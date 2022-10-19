@@ -42,7 +42,8 @@ class Router
 					break;
 
 				default:
-					//TO-DO: Page defaut
+					$view->makeHomePage();
+					//TO-DO: Page defaut Home
 					break;
 			}
 		} catch (Exception $e) {

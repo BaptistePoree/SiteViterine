@@ -1,0 +1,86 @@
+/* style page CV */ 
+.flex {
+    display: flex
+}
+
+.h-full {
+    height: 100%
+}
+
+.w-full {
+    width: 100%
+}
+
+.flex-col {
+    flex-direction: column
+}
+
+.items-center {
+    align-items: center
+}
+
+.px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem
+}
+
+.py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem
+}
+
+.px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem
+}
+
+.pt-10 {
+    padding-top: 2.5rem
+}
+
+.text-center {
+    text-align: center
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem
+}
+
+.font-bold {
+    font-weight: 700
+}
+
+.bg-beige-custom {
+    background-color: snow
+}
+
+@media (min-width: 768px) {
+    .sm\:w-4\/6 {
+        width: 66.666667%
+    }
+
+    .sm\:sm-margin-post-sidebar {
+        margin-left: 33.333333%
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:w-5\/6 {
+        width: 83.333333%
+    }
+
+    .lg\:lg-margin-post-sidebar {
+        margin-left: 25%
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:w-10\/12 {
+        width: 83.333333%
+    }
+
+    .xl\:xl-margin-post-sidebar {
+        margin-left: 16.666667%
+    }
+}

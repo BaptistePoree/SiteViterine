@@ -1,0 +1,153 @@
+/* style page competence */
+.w-full {
+    width: 100%
+}
+
+.flex {
+    display: flex
+}
+
+.flex-col {
+    flex-direction: column
+}
+
+.items-center {
+    align-items: center
+}
+
+.gap-6 {
+    gap: 1.5rem
+}
+
+.rounded-full {
+    border-radius: 9999px
+}
+
+.border-2 {
+    border-width: 2px
+}
+
+.border-white {
+    --tw-border-opacity: 1;
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity))
+}
+
+.bg-gray-100 {
+    --tw-bg-opacity: 1;
+    background-color: #F3F4F6FF
+}
+
+.p-4 {
+    padding: 1rem
+}
+
+.p-8 {
+    padding: 2rem
+}
+
+.p-2 {
+    padding: .5rem
+}
+
+.p-1 {
+    padding: .25rem
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem
+}
+
+.py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem
+}
+
+.pt-8 {
+    padding-top: 2rem
+}
+
+.pb-8 {
+    padding-bottom: 2rem
+}
+
+.pt-10 {
+    padding-top: 2.5rem
+}
+
+.pt-4 {
+    padding-top: 1rem
+}
+
+.text-center {
+    text-align: center
+}
+
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem
+}
+
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem
+}
+
+.font-bold {
+    font-weight: 700
+}
+
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity))
+}
+
+.shadow-sm {
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.shadow {
+    --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.text-darkblue-custom {
+    color: #242d53
+}
+
+@media (min-width: 768px) {
+    .sm\:w-6\/12 {
+        width: 50%
+    }
+
+    .sm\:p-2 {
+        padding: .5rem
+    }
+
+    .sm\:px-8 {
+        padding-left: 2rem;
+        padding-right: 2rem
+    }
+
+    .sm\:pt-4 {
+        padding-top: 1rem
+    }
+
+    .sm\:text-2xl {
+        font-size: 1.5rem;
+        line-height: 2rem
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:w-6\/12 {
+        width: 50%
+    }
+}
+
